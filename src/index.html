@@ -7,7 +7,9 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML Form</title>
+    <title>
+      HTML Form
+    </title>
     <link
       rel="stylesheet"
       href="./style.css"
@@ -15,8 +17,8 @@
   </head>
   <body>
     <form
-      action ="https://mate-academy-form-lesson.herokuapp.com/create-application"
-      method ="post"
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
     >
       <fieldset>
         <legend>
@@ -26,7 +28,7 @@
           Surname:
           <input
             type="text"
-            name ="surname"
+            name="surname"
             autocomplete="off"
             required
           >
@@ -36,7 +38,7 @@
           Name:
           <input
             type="text"
-            name ="surname"
+            name="surname"
             autocomplete="off"
             required
           >
@@ -45,18 +47,18 @@
         <label class="form-field">
           How old are You?
           <input
-            type = "number"
+            type="number"
             name="age"
             min="1"
             max="100"
-            value ="12"
+            value="12"
           >
         </label>
 
         <label class="form-field">
           Full date of birth:
           <input
-            type ="date"
+            type="date"
             name="date"
           >
         </label>
@@ -66,7 +68,7 @@
             I accept the term of the agreement
           </label>
           <input
-            type ="checkbox"
+            type="checkbox"
             name="terms"
           >
         </label>
@@ -79,16 +81,16 @@
         <label class="form-field">
           E-mail:
           <input
-            type ="email"
+            type="email"
             name="email"
-            placeholder ="email@example.com"
+            placeholder="email@example.com"
           >
         </label>
 
         <label class="form-field">
           Password:
           <input
-            type ="password"
+            type="password"
             name="password"
           >
         </label>
@@ -102,7 +104,7 @@
           Do you love cats?
           <label>
             <input
-              type ="radio"
+              type="radio"
               name="yes-no"
               value="y"
             >
@@ -121,7 +123,7 @@
         <label class="form-field">
           What is your favorite color?
           <input
-            type ="color"
+            type="color"
             name="color"
           >
         </label>
@@ -129,7 +131,7 @@
         <label class="form-field">
           What time do you go to bed?
           <input
-            type ="time"
+            type="time"
             name="time"
           >
         </label>
@@ -153,7 +155,7 @@
         <label class="form-field">
           How do you rate our work?
           <input
-            type ="range"
+            type="range"
             name="rate"
           >
         </label>
@@ -171,14 +173,21 @@
         <label class="form-field">
           Would you recommend us?
           <select name="recommend">
-            <option value="y">yes</option>
-            <option value="n">no</option>
+            <option value="y">
+              yes
+            </option>
+            <option value="n">
+              no
+            </option>
           </select>
         </label>
       </fieldset>
     </form>
 
-    <button type="submit">Submit</button>
+    <button type="submit">
+      Submit
+    </button>
+    
     <script
       type="text/javascript"
       src="./main.js"
